@@ -2,6 +2,7 @@ import "./App.css";
 import Aboutus from "./component/Aboutus";
 import Header from "./component/Header";
 import Navbar from './component/Navbar'
+import ProCate from "./component/ProCate";
 import Service from './component/Service'
 import View from "./component/View";
 
@@ -13,6 +14,7 @@ function App() {
       <Aboutus />
       <Service/>
       <View/>
+      <ProCate/>
     </div>
   );
 }
