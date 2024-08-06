@@ -2,13 +2,13 @@ import React from "react";
 
 function Aboutus() {
   return (
-    <div className="relative w-full min-h-screen p-4 bg-black">
+    <div className="relative w-full min-h-screen p-4 bg-black ">
       <div className="flex flex-col lg:flex-row justify-evenly">
         <div className="w-full lg:w-96 mb-4 lg:mb-0">
-          <img src="../../src/assets/room.jpg" alt="Room" className="w-full h-auto"/>
+          <img src="../../src/assets/room.jpg" alt="Room" className="w-full h-auto mt-10"/>
         </div>
         <div className="text-white w-full lg:w-1/2 flex flex-col space-y-8">
-          <h2 className="text-xl lg:text-2xl">Vision & mission</h2>
+          <h2 className="text-xl lg:text-2xl text-red-500 mt-7">Vision & mission</h2>
           <h1 className="text-2xl lg:text-4xl">ELEVATING Your Space With Style and Function</h1>
           <p className="text-sm lg:text-base">
             LXRY is a design-driven company that is focused on creating

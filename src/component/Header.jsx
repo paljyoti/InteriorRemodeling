@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
+    
     <div className="relative w-screen h-screen overflow-hidden">
+      <Navbar/>
       <video
         className="absolute inset-0 object-cover w-full h-full"
         autoPlay
