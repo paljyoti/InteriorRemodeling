@@ -18,6 +18,7 @@ function View() {
   </button>
 </div>
 
+
       <div className="flex w-full h-full ">
         <img
           src="../../src/assets/pexels-heyho-6538903.jpg"
