@@ -1,5 +1,7 @@
 import "./App.css";
 import Aboutus from "./component/Aboutus";
+import Card from "./component/Card";
+import Custom from "./component/Custom";
 import Header from "./component/Header";
 import Navbar from './component/Navbar'
 import ProCate from "./component/ProCate";
@@ -15,6 +17,8 @@ function App() {
       <Service/>
       <View/>
       <ProCate/>
+      <Custom/>
+      <Card/>
     </div>
   );
 }

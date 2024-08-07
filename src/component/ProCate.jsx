@@ -33,7 +33,7 @@ function ProCate() {
   return (
     <div className="bg-black text-white p-8">
       <div className="flex flex-col md:flex-row gap-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-2/3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full md:w-2/3">
           {images.map((image, index) => (
             <div
               key={index}
@@ -50,16 +50,16 @@ function ProCate() {
           ))}
         </div>
 
-        <div className="w-full md:w-1/3 text-center  md:text-left md:flex md:flex-col md:justify-center">
-          <h1 className="text-3xl font-bold text-red-600 ">Project Categories</h1>
-          <ul className="mt-4 space-y-2 text-lg">
+        <div className="w-full md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center">
+          <h1 className="text-3xl font-bold text-red-600">Project Categories</h1>
+          <ul className="mt-4 space-y-4 text-lg">
             <li>Total Look</li>
             <li>Kitchens</li>
             <li>Closets</li>
             <li>Bath</li>
             <li>Living</li>
           </ul>
-          <button className="mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
+          <button className="w-full sm:w-1/2 md:w-3/4 lg:w-1/2 mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
             View All
           </button>
         </div>
