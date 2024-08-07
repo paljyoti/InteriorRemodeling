@@ -47,7 +47,7 @@ function Cards() {
             through the various collections and get inspired to create new fresh
             looks for your interiors.
           </p>
-          <button className="sm:ml-16 mt-3 h-10 flex px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
+          <button className="sm:ml-16 mt-3 w-76 h-10 flex px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
             Learn More
           </button>
           {/* <button className="w-full sm:w-1/2 md:w-3/4 lg:w-1/2 mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">

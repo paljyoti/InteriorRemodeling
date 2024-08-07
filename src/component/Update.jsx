@@ -19,19 +19,19 @@ function Update() {
           <input
             type="text"
             placeholder="Enter your name"
-            className="p-3 border border-white rounded-lg bg-white-800 text-white placeholder-gray-400 w-full sm:w-1/2"
+            className="p-3 border border-white rounded-lg bg-red-600 text-white placeholder-gray-400 w-full sm:w-1/2"
           />
           <input
             type="text"
             placeholder="Your email"
-            className="p-3 border border-white rounded-lg bg-white-800 text-white placeholder-gray-400 w-full sm:w-1/2"
+            className="p-3 border border-white rounded-lg bg-red-600 text-white placeholder-gray-400 w-full sm:w-1/2"
           />
         </div>
         <div className="mb-6">
           <input
             type="text"
             placeholder="Additional information"
-            className="p-3 w-full border border-white rounded-lg bg-white-800 text-white placeholder-gray-400"
+            className="p-3 w-full border border-white border-red-500 rounded-lg bg-red-600 text-white placeholder-gray-400"
           />
         </div>
         <p className="text-sm text-gray-400">

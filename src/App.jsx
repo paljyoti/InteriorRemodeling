@@ -22,7 +22,7 @@ function App() {
       <Custom/>
       <Card/>
       <Update/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

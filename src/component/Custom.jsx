@@ -32,6 +32,7 @@ function Custom() {
           alt="Showroom"
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
         />
+        
         <div className="absolute inset-0 bg-black bg-opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-0" />
       </div>
     </div>
