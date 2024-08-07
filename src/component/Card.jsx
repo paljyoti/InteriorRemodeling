@@ -38,7 +38,7 @@ function Cards() {
     <div>
       {/* Affiliations and Partners Section */}
       <div className="bg-black text-white p-8">
-        <h6 className="text-sm font-semibold ml-4 sm:ml-20">Affiliations</h6>
+        <h6 className="text-sm font-semibold ml-4 text-red-500 sm:ml-20">Affiliations</h6>
         <h1 className="text-3xl font-bold mb-4 ml-4 sm:ml-20">Partners</h1>
         <div className="flex flex-col sm:flex-row mt-4 ml-4 sm:ml-20">
           <p className="mb-6 sm:w-1/2">
@@ -47,9 +47,12 @@ function Cards() {
             through the various collections and get inspired to create new fresh
             looks for your interiors.
           </p>
-          <button className="sm:ml-16 mt-3 h-10 flex px-6 py-2 bg-transparent border border-white text-white hover:bg-red-600 transition duration-300">
+          <button className="sm:ml-16 mt-3 h-10 flex px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
             Learn More
           </button>
+          {/* <button className="w-full sm:w-1/2 md:w-3/4 lg:w-1/2 mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
+          Learn More
+          </button> */}
         </div>
       </div>
 

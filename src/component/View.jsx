@@ -4,10 +4,10 @@ function View() {
   return (
     <div className="bg-black p-8">
       <div className=" ml-28 text-white mb-8">
-        <h6 className="text-2xl sm:text-2xl font-bold">How We Work</h6>
+        <h6 className="text-2xl sm:text-2xl  text-red-500 font-bold">How We Work</h6>
         <h1 className="text-2xl sm:text-4xl font-bold mt-2">Custom Design Solutions</h1>
       </div>
-      <div className="text-center text-red-500 mb-8 flex  items-center">
+      <div className="text-center text-white mb-8 flex  items-center">
   <p className="text-base sm:text-lg leading-relaxed w-1/2 ml-24 ">
     We approach every design as tailor-made and unique to our customer's taste and lifestyle. 
     Collaborating this understanding with our expertise in custom quality craftsmanship forms the foundation for success.

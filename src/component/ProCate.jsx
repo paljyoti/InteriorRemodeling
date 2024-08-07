@@ -50,6 +50,7 @@ function ProCate() {
           ))}
         </div>
 
+        <div class="h-96 mt-24 border-l-2 border-gray-500"></div>
         <div className="w-full md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center">
           <h1 className="text-3xl font-bold text-red-600">Project Categories</h1>
           <ul className="mt-4 space-y-4 text-lg">

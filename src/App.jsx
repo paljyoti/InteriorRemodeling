@@ -2,10 +2,12 @@ import "./App.css";
 import Aboutus from "./component/Aboutus";
 import Card from "./component/Card";
 import Custom from "./component/Custom";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Navbar from './component/Navbar'
 import ProCate from "./component/ProCate";
 import Service from './component/Service'
+import Update from "./component/Update";
 import View from "./component/View";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <ProCate/>
       <Custom/>
       <Card/>
+      <Update/>
+      {/* <Footer/> */}
     </div>
   );
 }
