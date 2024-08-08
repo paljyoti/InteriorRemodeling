@@ -16,16 +16,10 @@ function Custom() {
             For many, seeing is believing, but there's nothing quite like feeling.
             Visit us at our showroom in upper Georgetown to get the full experience.
           </p>
-          {/* <button className="bg-black text-white border-2 border-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-300">
-            Book an Appointment
-          </button> */}
-           <button className="relative text-white border border-white ml-10 w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
-  <span className="absolute  border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
-  <span className="relative">  Book an Appointment</span>
-</button>
-          {/* <button className="w-full sm:w-1/2 md:w-3/4 lg:w-1/2 mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">
-          Book an Appointment
-          </button> */}
+          <button className="relative text-white border border-white ml-10 w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+            <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
+            <span className="relative">Book an Appointment</span>
+          </button>
         </div>
       </div>
       
@@ -34,9 +28,8 @@ function Custom() {
         <img
           src="../../src/assets/pexels-fotios-photos-1444424.jpg" // Ensure this path is correct
           alt="Showroom"
-          className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-3 hover:shadow-2xl"
         />
-        
         <div className="absolute inset-0 bg-black bg-opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-0" />
       </div>
     </div>

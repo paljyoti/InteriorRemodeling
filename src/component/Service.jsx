@@ -39,7 +39,7 @@ function Service() {
               <img
                 src={item.src}
                 alt={item.heading}
-                className="w-full sm:w-5/6 h-auto rounded-lg shadow-md mx-auto transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-3d"
+                className="w-full sm:w-4/5 h-auto rounded-lg shadow-md mx-auto transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-3d"
               />
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 rounded-lg p-4">

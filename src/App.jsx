@@ -5,6 +5,7 @@ import Custom from "./component/Custom";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Navbar from './component/Navbar'
+import Partens from "./component/Partens";
 import ProCate from "./component/ProCate";
 import Service from './component/Service'
 import Update from "./component/Update";
@@ -20,6 +21,7 @@ function App() {
       <View/>
       <ProCate/>
       <Custom/>
+      <Partens/>
       <Card/>
       <Update/>
       <Footer/>

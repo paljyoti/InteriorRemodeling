@@ -50,18 +50,18 @@ function ProCate() {
           ))}
         </div>
 
-        <div class="h-96 mt-24 border-l-2 border-gray-500"></div>
-        <div className="w-full md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center">
-          <h1 className="text-3xl font-bold text-red-600">Project Categories</h1>
-          <ul className="mt-4 space-y-4 text-lg">
+        <div class="h-auto  border-gray-500"></div>
+        <div className="w-full border-l  md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center">
+          <h1 className="text-3xl font-bold text-red-600 text-center">Project Categories</h1>
+          <ul className="mt-4 space-y-4   text-lg ml-16">
             <li>Total Look</li>
             <li>Kitchens</li>
             <li>Closets</li>
             <li>Bath</li>
             <li>Living</li>
           </ul>
-          <button className="relative text-white border border-white ml-10 w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
-  <span className="absolute  border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
+          <button className="relative text-white mb-40 border border-white ml-10 w-auto  py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+  <span className="absolute  border-white border transform scale-x-0  origin-right hover:scale-x-100 transition duration-300"></span>
   <span className="relative">  View All</span>
 </button>
           {/* <button className="w-full sm:w-1/2 md:w-3/4 lg:w-1/2 mt-6 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300">

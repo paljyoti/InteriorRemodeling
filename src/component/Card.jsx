@@ -30,20 +30,20 @@ function Cards() {
       title: "05",
       heading: "Binova logo",
       description:
-        "This is the fifth card consectetur adipisicing elit.Nisi ipsa alias voluptate?.consectetur adipisicing elit. Nisi ipsa alias voluptate?",
+        "This is the fifth card consectetur adipisicing elit.Nisi ipsaalias voluptate?.consectetur adipisicing elit. Nisi ipsa alias voluptate?",
     },
     {
       title: "06",
       heading: "Binova logo",
       description:
-        "This is the sixth card consectetur adipisicing elit.Nisi ipsa alias voluptate?.consectetur adipisicing elit. Nisi ipsa alias voluptate?",
+        "This is the sixth card consectetur adipisicing elit.Nisi ipsaalias voluptate?.consectetur adipisicing elit. Nisi ipsa alias voluptate?",
     },
   ];
 
   return (
     <div>
       {/* Affiliations and Partners Section */}
-      <div className="bg-black text-white p-8">
+      {/* <div className="bg-black text-white p-8">
         
         <h6 className="text-sm font-semibold ml-4 text-red-500 sm:ml-20">Affiliations</h6>
         <h1 className="text-3xl font-bold mb-4 text-center sm:text-left sm:ml-20">Partners</h1>
@@ -60,7 +60,7 @@ function Cards() {
 </button>
        
         </div>
-      </div>
+      </div> */}
 
       {/* Cards Section */}
       <div className="p-8 bg-black text-white">
@@ -68,11 +68,11 @@ function Cards() {
           {cards.slice(0, 4).map((card, index) => (
             <div
               key={index}
-              className="border border-red-600 rounded-lg p-4 hover:bg-red-600 hover:border-red-800 transition duration-300"
+              className="border border-red-600  rounded-lg p-4 hover:bg-red-600 hover:border-red-800 transition duration-300"
             >
               <h2 className=" text-lg font-semibold ">{card.title}</h2>
               <h1 className="text-xl font-bold text-center mb-2 mt-6 ">{card.heading}</h1>
-              <p className="text-center mt-6 text-justify">{card.description}</p>
+              <p className="text-center mt-6 text-justify w-40 ml-14">{card.description}</p>
             </div>
           ))}
         </div>
@@ -84,7 +84,7 @@ function Cards() {
             >
               <h2 className="text-lg font-semibold ">{card.title}</h2>
               <h1 className="text-xl font-bold text-center mb-2 mt-6">{card.heading}</h1>
-              <p className="text-center mt-6 text-justify">{card.description}</p>
+              <p className="text-center mt-6 text-justify w-40 ml-14">{card.description}</p>
             </div>
           ))}
         </div>
