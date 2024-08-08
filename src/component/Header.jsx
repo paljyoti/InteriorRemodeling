@@ -5,7 +5,7 @@ function Header() {
   return (
     
     <div className="relative w-screen h-screen overflow-hidden">
-      <Navbar/>
+      {/* <Navbar/> */}
       <video
         className="absolute inset-0 object-cover w-full h-full"
         autoPlay
