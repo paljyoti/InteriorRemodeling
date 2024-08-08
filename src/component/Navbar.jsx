@@ -22,14 +22,14 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-black bg-opacity-20 backdrop-filter backdrop-blur-lg fixed top-0 left-0 w-[99%] z-10 transition-all duration-300 ${
+      className={`bg-black bg-opacity-20  backdrop-filter backdrop-blur-lg fixed top-0 left-0 w-[99%] z-10 transition-all duration-300 ${
         isScrolled ? "shadow-lg" : ""
       }`}
     >
       <div className="container mx-auto flex justify-around items-center px-4 py-6">
         <div className="flex items-center space-x-4">
           <div className="logo">{/* <img src="" alt="Logo" /> */}</div>
-          <div className="navbar flex space-x-10 text-lg">
+          <div className="navbar flex  space-x-10 text-lg">
             <a
               href="#"
               className="text-white hover:text-gray-300 transition duration-300"
@@ -90,6 +90,7 @@ function Navbar() {
                 style={{
                   transformOrigin: "center",
                   transition: "transform 0.3s ease-in-out",
+                  
                 }}
               />
             </button>
@@ -97,9 +98,10 @@ function Navbar() {
         </div>
         <div className="flex items-center space-x-4">
           <button className="relative text-white border border-white py-2 px-4 text-lg rounded-lg w-96 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
-            <span className="absolute inset-0 w-full h-full border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
+            <span className="absolute inset-0 w-full  h-full border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">BOOK AN APPOINTMENT</span>
           </button>
+          
         </div>
       </div>
     </div>
