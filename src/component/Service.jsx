@@ -3,6 +3,10 @@ import '../css/service.css' ;
 import { PiBathtubThin } from "react-icons/pi";
 import { MdOutlineBreakfastDining, MdOutlineLiving } from "react-icons/md";
 import { FaBookReader } from "react-icons/fa";
+import imageOne from "../../src/assets/pexels-abdel-rahman-abu-baker-958112-2319426.jpg";
+import imageTwo from "../../src/assets/pexels-donaldtong94-189333.jpg";
+import imageThree from "../../src/assets/pexels-heyho-6969870.jpg";
+import imageFour from "../../src/assets/pexels-sheep-556180-1846386.jpg";
 
 function Service() {
   return (
@@ -18,7 +22,7 @@ function Service() {
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-4  ">
         {[
           {
-            src: "../../src/assets/pexels-abdel-rahman-abu-baker-958112-2319426.jpg",
+            src: imageOne,
             heading: "LIVING ROOM",
             description:
               "The modern living room is the perfect place to entertain friends and family. With a contemporary, cohesive style that's both sophisticated yet relaxing; you can create memories in this space with ease.",
@@ -26,7 +30,7 @@ function Service() {
             text: "ENTERTAINMENT",
           },
           {
-            src: "../../src/assets/pexels-donaldtong94-189333.jpg",
+            src: imageTwo,
             heading: "BATHROOM",
             description:
               "Imagine waking up each morning and taking a leisurely bath in your own private oasis. With LXRY, that can be a reality. Our products are not only beautiful but also highly functional - perfect for anyone who wants the best of both worlds.",
@@ -57,7 +61,7 @@ function Service() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {[
           {
-            src: "../../src/assets/pexels-heyho-6969870.jpg",
+            src: imageThree,
             heading: "KITCHEN",
             description:
               "For many, the kitchen is the heart of the home. This space has something for everyone. Regardless of your lifestyle, we can reflect your needs and unique style to provide you the best cooking, cleaning, and dining experience.",
@@ -65,7 +69,7 @@ function Service() {
             text: "Preparation & DINING",
           },
           {
-            src: "../../src/assets/pexels-sheep-556180-1846386.jpg",
+            src: imageFour,
             heading: "STORAGE",
             description:
               "A custom-designed wardrobe in your home, you can be ready for the world and all its opportunities. With extra space for your wardrobe and accessories — find yourself feeling less stressed, more organized , and have more time for the things you love.",
