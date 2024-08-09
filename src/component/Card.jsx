@@ -34,13 +34,13 @@ const Carousel = () => {
       id: 5,
       title: "05",
       content:
-        "Italian craftsmanship redefined. Impeccable designs that harmonize beauty and practicality, offering bespoke kitchens that inspire culinary creativity.",
+        "Italian craftsmanship redefined. Impeccable designs that harmonize beauty and practicality, offering bespoke kitchens",
     },
     {
       id: 6,
       title: "06",
       content:
-        "High craftsmanship Made in Italy meets innovation and technological research: this is how TM Italia kitchens, a quintessential representation of the Bespoke",
+        "High craftsmanship Made in Italy meets innovation and technological research: this is how TM Italia kitchens",
     },
   ];
 
@@ -73,13 +73,13 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full h-full mx-auto py-4 px-10 bg-black">
+    <div className="relative w-full  mx-auto py-4 px-10 bg-black">
       <Slider {...settings}>
         {cards.map((card) => (
           <div key={card.id} className="px-1 mt-10 ">
             <div className="bg-black p-2 shadow-md rounded-lg border-2 border-red-500 text-white transition-transform transform hover:scale-105 w-60 h-36">
               <h3 className="text-base font-bold ">{card.title}</h3>
-              <p className="text-sm mt-6">{card.content}</p>
+              <p className="text-sm mt-2">{card.content}</p>
             </div>
           </div>
         ))}
