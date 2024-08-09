@@ -15,7 +15,7 @@ function Service() {
           Design Services
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-4  ">
         {[
           {
             src: "../../src/assets/pexels-abdel-rahman-abu-baker-958112-2319426.jpg",
@@ -47,9 +47,9 @@ function Service() {
                 {item.description}
               </p>
               <h1 className="text-white mt-10 flex items-center">
-                {item.icon} <span className="text-red-500">{item.heading}</span>
+                {item.icon} <span className="text-red-500 mr-60">{item.heading}</span>
               </h1>
-              <p className="text-white">{item.text}</p>
+              <p className="text-white mr-64">{item.text}</p>
             </div>
           </div>
         ))}
@@ -86,9 +86,9 @@ function Service() {
                 {item.description}
               </p>
               <h1 className="text-white mt-10 flex items-center">
-                {item.icon} <span className="text-red-500">{item.heading}</span>
+                {item.icon} <span className="text-red-500 mr-72">{item.heading}</span>
               </h1>
-              <p className="text-white">{item.text}</p>
+              <p className="text-white  mr-60">{item.text}</p>
             </div>
           </div>
         ))}
