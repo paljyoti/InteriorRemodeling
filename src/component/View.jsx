@@ -1,4 +1,5 @@
 import React from "react";
+import imageOne from "../../src/assets/pexels-heyho-6538903.jpg";
 
 function View() {
   return (
@@ -26,7 +27,7 @@ function View() {
 
       <div className="relative w-full h-full sm:h-auto">
         <img
-          src="../../src/assets/pexels-heyho-6538903.jpg"
+          src={imageOne}
           alt="Embassy Row Renovation"
           className="w-full h-full object-cover shadow-md"
         />

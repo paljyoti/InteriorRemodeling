@@ -1,4 +1,5 @@
 import React from "react";
+import videoOne from "../../src/assets/2934978-uhd_3840_2160_24fps.mp4";
 
 export default function Partens() {
   return (
@@ -11,10 +12,7 @@ export default function Partens() {
           muted
           loop
         >
-          <source
-            src="../../src/assets/2934978-uhd_3840_2160_24fps.mp4"
-            type="video/mp4"
-          />
+          <source src={videoOne} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
