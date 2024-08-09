@@ -49,7 +49,7 @@ function Navbar() {
               Contract
             </a>
             <a
-              href="#"
+              href="/#/aboutus"
               className="text-white hover:text-gray-300 transition duration-300"
             >
               About
