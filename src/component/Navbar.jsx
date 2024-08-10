@@ -32,31 +32,31 @@ function Navbar() {
           <div className="navbar flex  space-x-10 text-lg">
             <a
               href="#"
-              className="text-white hover:text-gray-300 transition ml-20 duration-300"
+              className="text-white hover:text-red-500 transition ml-20 duration-300"
             >
               Home
             </a>
             <a
               href="/#/portfolio"
-              className="text-white hover:text-gray-300 transition duration-300"
+              className="text-white hover:text-red-500 transition duration-300"
             >
               Portfolio
             </a>
             <a
               href="/#/contract"
-              className="text-white hover:text-gray-300 transition duration-300"
+              className="text-white hover:text-red-500 transition duration-300"
             >
               Contract
             </a>
             <a
               href="/#/aboutus"
-              className="text-white hover:text-gray-300 transition duration-300"
+              className="text-white hover:text-red-500 transition duration-300"
             >
               About
             </a>
             <a
               href="/#/contact"
-              className="text-white hover:text-gray-300 transition duration-300"
+              className="text-white hover:text-red-500 transition duration-300"
             >
               Contact
             </a>
