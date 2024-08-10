@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/about.css';
+import aboutimage from "../../src/assets/room.jpg"
 
 function Aboutus() {
   return (
@@ -8,7 +9,7 @@ function Aboutus() {
         <div className="w-full lg:w-96 mb-4 lg:mb-0 perspective-1000">
           <div className="relative group">
             <img
-              src="../../src/assets/room.jpg"
+              src={aboutimage}
               alt="Room"
               className="w-full h-auto mt-10 transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-3d"
             />

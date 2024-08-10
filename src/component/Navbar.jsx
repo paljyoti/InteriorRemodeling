@@ -37,13 +37,13 @@ function Navbar() {
               Home
             </a>
             <a
-              href="#"
+              href="/#/portfolio"
               className="text-white hover:text-gray-300 transition duration-300"
             >
               Portfolio
             </a>
             <a
-              href="#"
+              href="/#/contract"
               className="text-white hover:text-gray-300 transition duration-300"
             >
               Contract
@@ -55,7 +55,7 @@ function Navbar() {
               About
             </a>
             <a
-              href="#"
+              href="/#/contact"
               className="text-white hover:text-gray-300 transition duration-300"
             >
               Contact

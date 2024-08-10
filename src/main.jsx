@@ -4,6 +4,9 @@ import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createHashRouter } from "react-router-dom";
 import AboutUsPage from "./Pages/AboutUsPage.jsx";
+import ContractPage from "./Pages/ContractPage.jsx";
+import ContactPage from "./Pages/ContactPage.jsx";
+import PortfolioPage from "./Pages/PortfolioPage.jsx";
 
 
 const router = createHashRouter([
@@ -15,6 +18,19 @@ const router = createHashRouter([
     path:"/aboutus",
     element: <AboutUsPage/>
   },
+  {
+    path:"/contract",
+    element: <ContractPage/>
+  },
+  {
+    path:"/contact",
+    element: <ContactPage/>
+  },
+  {
+    path:"/portfolio",
+    element: <PortfolioPage/>
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
