@@ -61,7 +61,6 @@ function ContractPage() {
           </h1>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col lg:flex-row items-start">
         <div className="flex-1 mb-6 lg:mb-0">
           <img
@@ -99,7 +98,6 @@ function ContractPage() {
           </p>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 sm:p-8 md:p-10 lg:p-12 flex items-center justify-center">
         <div className="w-full max-w-screen-lg">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -122,7 +120,6 @@ function ContractPage() {
           </div>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 sm:p-8 md:p-10 flex flex-col md:flex-row items-center md:items-start">
         <div className="flex-1 max-w-screen-lg">
           <h6 className="text-lg text-red-500 font-semibold mb-2">
@@ -142,7 +139,6 @@ function ContractPage() {
           </button>
         </div>
       </div>
-
       <Footer />
     </div>
   );

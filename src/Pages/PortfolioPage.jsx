@@ -9,7 +9,6 @@ function PortfolioPage() {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       <Navbar />
-      
       <div className="relative">
         <img
           src={portfoliaImage}
@@ -25,10 +24,8 @@ function PortfolioPage() {
           </h1>
         </div>
       </div>
-      
       <View />
       <ProCate />
-      
       <div className="bg-black text-white p-6 md:p-8 lg:p-12 flex flex-col md:flex-row items-center">
         <div className="flex-1 mb-6 md:mb-0">
           <div className="max-w-screen-lg mx-auto">
@@ -52,7 +49,6 @@ function PortfolioPage() {
           </div>
         </div>
       </div>
-      
       <Footer />
     </div>
   );

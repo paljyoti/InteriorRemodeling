@@ -7,6 +7,7 @@ import AboutUsPage from "./Pages/AboutUsPage.jsx";
 import ContractPage from "./Pages/ContractPage.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
 import PortfolioPage from "./Pages/PortfolioPage.jsx";
+import ViewProccess from "./Pages/ViewProccess.jsx";
 
 
 const router = createHashRouter([
@@ -29,6 +30,10 @@ const router = createHashRouter([
   {
     path:"/portfolio",
     element: <PortfolioPage/>
+  },
+  {
+    path:"/viewProcess",
+    element: <ViewProccess/>
   },
 
 ]);

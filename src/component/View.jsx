@@ -1,7 +1,9 @@
 import React from "react";
 import imageOne from "../../src/assets/pexels-heyho-6538903.jpg";
+import { useNavigate } from "react-router-dom";
 
 function View() {
+  const Navigate = useNavigate();
   return (
     <div className="bg-black p-4 sm:p-8 lg:p-12">
       <div className="text-center sm:text-left text-white mb-8 pl-20">
@@ -19,13 +21,12 @@ function View() {
           expertise in custom quality craftsmanship forms the foundation for
           success.
         </p>
-        <button className="relative text-white border border-white w-full sm:w-80 py-2 px-4 rounded-lg mt-4 sm:mt-0 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+        <button  onClick={()=>Navigate('/viewProcess')} className="relative text-white border border-white w-full sm:w-80 py-2 px-4 rounded-lg mt-4 sm:mt-0 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
           <span className="absolute inset-0 w-full h-full border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
           <span className="relative">View Process</span>
         </button>
       </div>
-
-      <div className="relative w-full h-60 sm:h-80 lg:h-[500px] mt-8">
+      <div className="relative w-full h-full sm:h-80 lg:h-[500px] mt-8">
         <img
           src={imageOne}
           alt="Embassy Row Renovation"

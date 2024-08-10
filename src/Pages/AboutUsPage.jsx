@@ -19,7 +19,7 @@ function AboutUsPage() {
             Who we are
           </h6>
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-            About us--
+            About us  
           </h1>
         </div>
       </div>

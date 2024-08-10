@@ -10,8 +10,8 @@ function Update() {
           </h1>
           <p className="text-base sm:text-lg mb-6">
             The latest designs and trends in luxury custom cabinets are just a
-            click away. Sign up for email updates from LXRY to get the latest news
-            on our events, trends, and exclusive promotions.
+            click away. Sign up for email updates from LXRY to get the latest
+            news on our events, trends, and exclusive promotions.
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -27,14 +27,16 @@ function Update() {
           />
         </div>
         <div className="mb-6">
-          <input
-            type="text"
-            placeholder="Additional information"
-            className="p-3 w-full border border-white border-white-500 rounded-lg bg-white-600 text-white placeholder-gray-400"
-          />
+          <button
+            type="button"
+            className="p-3 w-full border border-white rounded-lg bg-white-500 text-white placeholder-gray-400 hover:bg-red-500 transition duration-300"
+          >
+           Sign Up 
+          </button>
         </div>
         <p className="text-sm text-gray-400">
-          By clicking Sign Up you're confirming that you agree with our Terms and Conditions.
+          By clicking Sign Up you're confirming that you agree with our Terms
+          and Conditions.
         </p>
       </div>
     </div>

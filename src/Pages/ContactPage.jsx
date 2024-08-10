@@ -7,7 +7,6 @@ function ContactPage() {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       <Navbar />
-      
       <div className="relative bg-black text-white">
         <img
           src={imageContact}
@@ -23,7 +22,6 @@ function ContactPage() {
           </h1>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 md:p-8 lg:p-12">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1">
@@ -41,7 +39,6 @@ function ContactPage() {
           </div>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 md:p-8 lg:p-12">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1 mb-6 md:mb-0">
@@ -118,7 +115,6 @@ function ContactPage() {
           </div>
         </div>
       </div>
-
       <div className="bg-black text-white p-6 md:p-8 lg:p-12 flex flex-col md:flex-row items-center">
         <div className="flex-1 max-w-screen-lg mx-auto">
           <h6 className="text-lg text-red-500 font-semibold mb-2 text-center md:text-left">
@@ -138,7 +134,6 @@ function ContactPage() {
           </button>
         </div>
       </div>
-
       <Footer />
     </div>
   );
