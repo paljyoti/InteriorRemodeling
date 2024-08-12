@@ -3,8 +3,11 @@ import Footer from '../component/Footer'
 import Navbar from '../component/Navbar'
 import imageCloset from "../../src/assets/pexels-anastasia-shuraeva-5704845.jpg";
 import backgroundVideo1 from "../../src/assets/5704534-uhd_4096_2160_24fps.mp4";
+import { useNavigate } from 'react-router-dom';
 
 function ClosetPage() {
+const navigate = useNavigate();
+
   return (
     <div>
         <Navbar/>
@@ -62,11 +65,11 @@ function ClosetPage() {
             </li>
           </ul>
           <button
-            onClick={() => navigate("/portfolio")}
+            onClick={() => navigate("/contact")}
             className="relative text-white border border-white py-2 px-4 rounded-lg mt-8 hover:bg-red-500 transition duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl"
           >
             <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
-            <span className="relative">View All</span>
+            <span className="relative">Start Your Project</span>
           </button>
         </div>
       </div>
