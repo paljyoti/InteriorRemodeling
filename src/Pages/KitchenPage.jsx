@@ -36,11 +36,6 @@ function KitchenPage() {
               Your browser does not support the video tag.
             </video>
           </div>
-          {/* <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-white text-3xl md:text-4xl font-bold">
-              Nothing Here Yet. Comeback soon.
-            </h1>
-          </div> */}
         </div>
 
         <div className="w-full md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center mt-8 md:mt-0 md:pl-8">
@@ -49,10 +44,10 @@ function KitchenPage() {
           </h1>
           <ul className="space-y-4 text-lg pl-7">
             <li>
-              <a href="#">Total Look</a>
+              <a href="/#/totallook">Total Look</a>
             </li>
             <li>
-              <a href="/#/kitchen">Kitchens</a>
+              <a href="/#/bath">Bath</a>
             </li>
             <li>
               <a href="/#/Closets">Closets</a>

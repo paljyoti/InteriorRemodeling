@@ -49,7 +49,7 @@ function BathsPage() {
           </h1>
           <ul className="space-y-4 text-lg pl-7">
             <li>
-              <a href="#">Total Look</a>
+              <a href="/#/totallook">Total Look</a>
             </li>
             <li>
               <a href="/#/kitchen">Kitchens</a>

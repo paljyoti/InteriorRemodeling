@@ -10,7 +10,6 @@ import imageFourHover from "../../src/assets/pexels-solliefoto-312029.jpg";
 import { useNavigate } from "react-router-dom";
 
 function ProCate() {
-
   const navigate = useNavigate();
   const [hoveredImage, setHoveredImage] = useState(null);
 
@@ -66,13 +65,26 @@ function ProCate() {
             Project Categories
           </h1>
           <ul className="mt-4 space-y-4 text-lg ml-16">
-          <li><a  href="#" >Total Look</a></li> 
-            <li><a href="/#/kitchen" >Kitchens</a></li>
-            <li><a href="/#/living" >Living</a></li> 
-            <li><a href="/#/Closets" >Closets</a></li>
-            <li><a href="/#/bath" >Bath</a></li>
+            <li>
+              <a href="/#/totallook">Total Look</a>
+            </li>
+            <li>
+              <a href="/#/kitchen">Kitchens</a>
+            </li>
+            <li>
+              <a href="/#/living">Living</a>
+            </li>
+            <li>
+              <a href="/#/Closets">Closets</a>
+            </li>
+            <li>
+              <a href="/#/bath">Bath</a>
+            </li>
           </ul>
-          <button onClick={()=>navigate('/portfolio')} className="relative text-white mb-40 border border-white ml-10 w-auto  py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button
+            onClick={() => navigate("/portfolio")}
+            className="relative text-white mb-40 border border-white ml-10 w-auto  py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl"
+          >
             <span className="absolute  border-white border transform scale-x-0  origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">View All</span>
           </button>
