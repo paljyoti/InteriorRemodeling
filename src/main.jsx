@@ -8,6 +8,10 @@ import ContractPage from "./Pages/ContractPage.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
 import PortfolioPage from "./Pages/PortfolioPage.jsx";
 import ViewProccess from "./Pages/ViewProccess.jsx";
+import PartnersPage from "./Pages/PartnersPage.jsx";
+import LivingPage from "./Pages/LivingPage.jsx";
+import ClosetPage from "./Pages/ClosetPage.jsx";
+import BathsPage from "./Pages/BathsPage.jsx";
 
 
 const router = createHashRouter([
@@ -35,7 +39,22 @@ const router = createHashRouter([
     path:"/viewProcess",
     element: <ViewProccess/>
   },
-
+  {
+    path:"/learnmore",
+    element: <PartnersPage/>
+  },
+  {
+    path:"/living",
+    element: <LivingPage/> ,
+  },
+  {
+    path:"/Closets",
+    element: <ClosetPage/> ,
+  },
+  {
+    path:"/bath",
+    element: <BathsPage/> ,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,8 +1,11 @@
 import React from "react";
 import '../css/about.css';
 import aboutimage from "../../src/assets/room.jpg"
+import { useNavigate } from "react-router-dom";
 
 function Aboutus() {
+
+  const navigate = useNavigate();
   return (
     <div className="relative w-full min-h-screen p-4 bg-black">
       <div className="flex flex-col lg:flex-row justify-evenly">
@@ -40,7 +43,7 @@ function Aboutus() {
             LXRY, you can be sure that every detail will be taken into account
             from conception to installation.
           </p>
-          <button className="relative h-full w-full text-white border border-white w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button  onClick={()=>navigate('/aboutus')} className="relative h-full w-full text-white border border-white w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
             <span className="absolute border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span>Learn about us</span>
           </button>

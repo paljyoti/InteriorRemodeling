@@ -1,7 +1,11 @@
 import React from "react";
 import videoOne from "../../src/assets/2934978-uhd_3840_2160_24fps.mp4";
+import { useNavigate } from "react-router-dom";
 
 export default function Partens() {
+
+const navigate = useNavigate();
+
   return (
     <div>
       {/* Video Background */}
@@ -31,9 +35,9 @@ export default function Partens() {
               catalogues. Browse through the various collections and get
               inspired to create new fresh looks for your interiors.
             </p>
-            <button className="relative text-white border border-white py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+            <button  onClick={()=>navigate('/learnmore')}  className="relative text-white border border-white py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
               <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
-              <span className="relative">Book an Appointment</span>
+              <span className="relative">Learn More</span>
             </button>
           </div>
         </div>
