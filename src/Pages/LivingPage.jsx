@@ -49,10 +49,10 @@ function LivingPage() {
           </h1>
           <ul className="space-y-4 text-lg pl-7">
             <li>
-              <a href="/#/living">Total Look</a>
+              <a href="#">Total Look</a>
             </li>
             <li>
-              <a href="#">Kitchens</a>
+              <a href="/#/kitchen">Kitchens</a>
             </li>
             <li>
               <a href="/#/Closets">Closets</a>

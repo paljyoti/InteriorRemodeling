@@ -52,12 +52,14 @@ function BathsPage() {
               <a href="#">Total Look</a>
             </li>
             <li>
-              <a href="#">Kitchens</a>
+              <a href="/#/kitchen">Kitchens</a>
             </li>
             <li>
               <a href="/#/Closets">Closets</a>
             </li>
-            <li><a  href="/#/living" >Living</a></li> 
+            <li>
+              <a href="/#/living" >Living</a>
+              </li> 
           </ul>
           <button
             onClick={() => navigate("/portfolio")}

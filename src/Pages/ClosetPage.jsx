@@ -52,7 +52,7 @@ function ClosetPage() {
               <a href="/#/living">Total Look</a>
             </li>
             <li>
-              <a href="#">Kitchens</a>
+              <a href="/#/kitchen">Kitchens</a>
             </li>
             <li>
               <a href="/#/living">Living</a>

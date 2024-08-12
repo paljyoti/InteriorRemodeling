@@ -12,6 +12,7 @@ import PartnersPage from "./Pages/PartnersPage.jsx";
 import LivingPage from "./Pages/LivingPage.jsx";
 import ClosetPage from "./Pages/ClosetPage.jsx";
 import BathsPage from "./Pages/BathsPage.jsx";
+import KitchenPage from "./Pages/KitchenPage.jsx";
 
 
 const router = createHashRouter([
@@ -54,6 +55,10 @@ const router = createHashRouter([
   {
     path:"/bath",
     element: <BathsPage/> ,
+  },
+  {
+    path:"/kitchen",
+    element: <KitchenPage/> ,
   },
 ]);
 

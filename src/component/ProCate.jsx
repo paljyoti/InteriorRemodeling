@@ -67,8 +67,8 @@ function ProCate() {
           </h1>
           <ul className="mt-4 space-y-4 text-lg ml-16">
           <li><a  href="#" >Total Look</a></li> 
-            <li><a>Kitchens</a></li>
-            <li><a  href="/#/living" >Living</a></li> 
+            <li><a href="/#/kitchen" >Kitchens</a></li>
+            <li><a href="/#/living" >Living</a></li> 
             <li><a href="/#/Closets" >Closets</a></li>
             <li><a href="/#/bath" >Bath</a></li>
           </ul>
