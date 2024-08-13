@@ -22,10 +22,10 @@ const navigate = useNavigate();
           />
         </div>
         <div className="absolute left-28 p-6 sm:p-8 ">
-          <h2 className="text-red-500 text-lg font-semibold mb-2">
+          <h2 className="text-red-500 text-3xl font-semibold mb-2">
             Design Approach
           </h2>
-          <h1 className="text-white text-3xl sm:text-4xl font-bold">
+          <h1 className="text-white text-4xl sm:text-5xl font-bold">
             OUR Process
           </h1>
         </div>

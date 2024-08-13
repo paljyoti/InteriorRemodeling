@@ -15,7 +15,7 @@ function AboutUsPage() {
           className="w-full h-auto object-cover opacity-70"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-8 lg:px-20 xl:px-32">
-          <h6 className="text-base md:text-lg uppercase font-semibold mb-2 text-red-500">
+          <h6 className="text-base md:text-3xl uppercase font-semibold mb-2 text-red-500">
             Who we are
           </h6>
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">

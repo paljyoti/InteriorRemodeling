@@ -4,8 +4,6 @@ import imageappointment from "../../src/assets/pexels-seven11nash-380768.jpg";
 import backgroundVideo from "../../src/assets/7578546-uhd_3840_2160_30fps.mp4";
 import Footer from "../component/Footer";
 
-
-
 function BookaAppointment() {
   return (
     <div>
@@ -24,57 +22,64 @@ function BookaAppointment() {
         </div>
       </div>
 
-
-
       <div className="min-h-screen flex items-center justify-center bg-black p-4">
-  <div className="max-w-md w-full bg-black p-8 rounded-lg shadow-lg">
-    <h2 className="text-red-500 text-3xl font-bold mb-6 text-center">Book an Appointment</h2>
-    <form>
-      <div className="mb-4">
-        <label className="block text-red-500 mb-2" htmlFor="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
-          placeholder="Your Name"
-        />
+        <div className="max-w-md w-full bg-black p-8 rounded-lg shadow-lg">
+          <h2 className="text-red-500 text-3xl font-bold mb-6 text-center">
+            Book an Appointment
+          </h2>
+          <form>
+            <div className="mb-4">
+              <label className="block text-red-500 mb-2" htmlFor="name">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+                placeholder="Your Name"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-red-500 mb-2" htmlFor="email">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+                placeholder="Your Email"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-red-500 mb-2" htmlFor="phone">
+                Phone
+              </label>
+              <input
+                type="text"
+                id="phone"
+                className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+                placeholder="Your Phone Number"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-red-500 mb-2" htmlFor="date">
+                Preferred Date
+              </label>
+              <input
+                type="date"
+                id="date"
+                className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+              />
+            </div>
+            <button
+              type="submit"
+              className="w-full py-3 bg-red-500 text-white rounded hover:bg-red-600 transition duration-300"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
-      <div className="mb-4">
-        <label className="block text-red-500 mb-2" htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
-          placeholder="Your Email"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-red-500 mb-2" htmlFor="phone">Phone</label>
-        <input
-          type="text"
-          id="phone"
-          className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
-          placeholder="Your Phone Number"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-red-500 mb-2" htmlFor="date">Preferred Date</label>
-        <input
-          type="date"
-          id="date"
-          className="w-full p-3 text-black bg-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
-        />
-      </div>
-      <button
-        type="submit"
-        className="w-full py-3 bg-red-500 text-white rounded hover:bg-red-600 transition duration-300"
-      >
-        Submit
-      </button>
-    </form>
-  </div>
-</div>
-
 
       <div className="relative w-screen h-screen overflow-hidden">
         <video
@@ -108,7 +113,7 @@ function BookaAppointment() {
           </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -14,23 +14,23 @@ function Footer() {
               <a href="/" className="block">
                 HOME
               </a>
-              <a href="/about" className="block">
+              <a href="/#/aboutus" className="block">
                 ABOUT
               </a>
-              <a href="/process" className="block">
+              <a href="/#/viewProcess" className="block">
                 PROCESS
               </a>
             </div>
             <div className="space-y-4 lg:space-y-10">
-              <a href="/contact" className="block">
+              <a href="/#/contact" className="block">
                 CONTACT
               </a>
-              <a href="/partners" className="block">
+              <a href="/#/learnmore" className="block">
                 PARTNERS
               </a>
             </div>
             <div className="space-y-4 lg:space-y-10">
-              <a href="/portfolio" className="block">
+              <a href="/#/portfolio" className="block">
                 PORTFOLIO
               </a>
             </div>

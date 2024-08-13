@@ -57,10 +57,10 @@ const navigate = useNavigate();
           className="object-cover w-full h-full opacity-30"
         />
         <div className="absolute inset-0 flex flex-col items-start justify-center pl-4 sm:pl-6 md:pl-8 lg:pl-12 xl:pl-36">
-          <h6 className="text-base sm:text-lg font-medium text-red-500">
+          <h6 className="text-base sm:text-3xl font-medium text-red-500">
             Commercial Ventures
           </h6>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-2">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mt-2">
             Contract
           </h1>
         </div>

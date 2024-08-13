@@ -18,7 +18,7 @@ function ContactPage() {
           className="w-full h-64 md:h-80 lg:h-[500px] object-cover brightness-50"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-8 lg:px-20 bg-black bg-opacity-40 text-center md:text-left">
-          <h2 className="text-red-500 text-lg md:text-xl font-semibold  mb-2">
+          <h2 className="text-red-500 text-3xl md:text-4xl font-semibold  mb-2">
             Contact Us
           </h2>
           <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold">

@@ -55,10 +55,10 @@ function PortfolioPage() {
           className="w-full h-64 md:h-80 lg:h-[500px] object-cover brightness-50"
         />
         <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-8 lg:px-20 bg-black bg-opacity-40 pl-16 text-left">
-          <h6 className="text-base md:text-lg uppercase font-semibold mb-2 text-red-500">
+          <h6 className="text-base md:text-4xl uppercase font-semibold mb-2 text-red-500">
             Projects
           </h6>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             Portfolio
           </h1>
         </div>

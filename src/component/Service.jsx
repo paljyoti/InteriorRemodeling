@@ -7,8 +7,10 @@ import imageOne from "../../src/assets/pexels-abdel-rahman-abu-baker-958112-2319
 import imageTwo from "../../src/assets/pexels-donaldtong94-189333.jpg";
 import imageThree from "../../src/assets/pexels-heyho-6969870.jpg";
 import imageFour from "../../src/assets/pexels-sheep-556180-1846386.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Service() {
+  const navigatev= useNavigate();
   return (
     <div className="p-4 sm:p-8 bg-black">
       <div className="text-center sm:text-left mb-8">
@@ -19,7 +21,7 @@ function Service() {
           Design Services
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 mb-4  ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-4">
         {[
           {
             src: imageOne,
@@ -38,7 +40,7 @@ function Service() {
             text: "RELAXATION",
           },
         ].map((item, index) => (
-          <div key={index} className="relative group">
+          <div key={index}  onClick={()=>navigatev('/living')} className="relative group">
             <div className="perspective-1000 group-hover:rotate-3d">
               <img
                 src={item.src}
@@ -87,12 +89,12 @@ function Service() {
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 rounded-lg p-4">
               <p className="w-80 text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                {item.description}
+                {item.description} 
               </p>
               <h1 className="text-white mt-10 flex items-center">
                 {item.icon} <span className="text-red-500 mr-72">{item.heading}</span>
               </h1>
-              <p className="text-white  mr-60">{item.text}</p>
+              <p className="text-white mr-60">{item.text}</p>
             </div>
           </div>
         ))}
@@ -102,3 +104,21 @@ function Service() {
 }
 
 export default Service;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
