@@ -14,6 +14,7 @@ import ClosetPage from "./Pages/ClosetPage.jsx";
 import BathsPage from "./Pages/BathsPage.jsx";
 import KitchenPage from "./Pages/KitchenPage.jsx";
 import TotalPage from "./Pages/TotalPage.jsx";
+import BookaAppointment from "./Pages/BookaAppointment.jsx";
 
 
 const router = createHashRouter([
@@ -64,6 +65,10 @@ const router = createHashRouter([
   {
     path:"/totallook",
     element: <TotalPage/> ,
+  },
+  {
+    path:"/bookaAppointment",
+    element: <BookaAppointment/> ,
   },
 ]);
 

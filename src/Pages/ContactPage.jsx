@@ -2,8 +2,12 @@ import React from "react";
 import imageContact from "../../src/assets/pexels-joenibraw-1416530.jpg";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
+import { useNavigate } from "react-router-dom";
 
 function ContactPage() {
+
+  const navigate = useNavigate();
+
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       <Navbar />
@@ -128,7 +132,7 @@ function ContactPage() {
             feeling. Visit us at our showroom in upper Georgetown to get the
             full experience.
           </p>
-          <button className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl mx-auto md:mx-0">
+          <button onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl mx-auto md:mx-0">
             <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">Book an Appointment</span>
           </button>

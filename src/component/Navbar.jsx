@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+const navigate = useNavigate();
+
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -95,9 +98,9 @@ function Navbar() {
               />
             </button>
           </div>
-        </div>
+        </div> 
         <div className="flex items-center space-x-4">
-          <button className="relative text-white border border-white py-2 px-4 text-lg rounded-lg w-96 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white py-2 px-4 text-lg rounded-lg w-96 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
             <span className="absolute inset-0 w-full  h-full border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">BOOK AN APPOINTMENT</span>
           </button>

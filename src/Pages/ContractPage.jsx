@@ -12,8 +12,12 @@ import image7 from "../../src/assets/pexels-rachel-claire-5531541.jpg";
 import image8 from "../../src/assets/pexels-rdne-5698918.jpg";
 import Custom from "../component/Custom";
 import Footer from "../component/Footer";
+import { useNavigate } from "react-router-dom";
 
 function ContractPage() {
+
+const navigate = useNavigate();
+
   const [hoveredImage, setHoveredImage] = useState(null);
 
   const handleMouseEnter = (index) => {
@@ -133,7 +137,7 @@ function ContractPage() {
             feeling. Visit us at our showroom in upper Georgetown to get the
             full experience.
           </p>
-          <button className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button  onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
             <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">Book an Appointment</span>
           </button>

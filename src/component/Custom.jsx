@@ -1,7 +1,11 @@
 import React from "react";
 import imageOne from "../../src/assets/pexels-fotios-photos-1444424.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Custom() {
+
+  const navigate =useNavigate();
+
   return (
     <div className="flex flex-col md:flex-row">
       {/* Text Content */}
@@ -18,7 +22,7 @@ function Custom() {
             feeling. Visit us at our showroom in upper Georgetown to get the
             full experience.
           </p>
-          <button className="relative text-white border border-white ml-10 w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white ml-10 w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
             <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">Book an Appointment</span>
           </button>
