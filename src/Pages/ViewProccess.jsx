@@ -7,8 +7,7 @@ import Footer from "../component/Footer";
 import { useNavigate } from "react-router-dom";
 
 function ViewProccess() {
-
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -21,21 +20,22 @@ const navigate = useNavigate();
             className="w-full h-auto object-cover brightness-50"
           />
         </div>
-        <div className="absolute left-28 p-6 sm:p-8 ">
-          <h2 className="text-red-500 text-3xl font-semibold mb-2">
+        <div className="absolute left-4 sm:left-10 md:left-28 p-4 sm:p-8">
+          <h2 className="text-red-500 text-2xl sm:text-3xl font-semibold mb-2">
             Design Approach
           </h2>
-          <h1 className="text-white text-4xl sm:text-5xl font-bold">
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
             OUR Process
           </h1>
         </div>
       </div>
-      <div className="bg-black text-left p-8">
-        <div className="commit pl-28">
-          <h1 className="text-red-500 text-3xl font-bold mb-4">
+
+      <div className="bg-black text-left p-4 sm:p-8">
+        <div className="commit sm:pl-10 md:pl-28">
+          <h1 className="text-red-500 text-2xl sm:text-3xl font-bold mb-4">
             Committed to Excellence
           </h1>
-          <p className="text-white w-2/3 text-base leading-relaxed">
+          <p className="text-white w-full sm:w-2/3 text-sm sm:text-base leading-relaxed">
             A successful process is an invaluable asset for any project. A
             well-structured plan creates a clear roadmap that guides our team
             from concept to installation and beyond. LXRY carefully considers
@@ -48,14 +48,14 @@ const navigate = useNavigate();
         </div>
       </div>
 
-      <div className=" flex consult bg-black text-white p-8">
+      <div className="flex flex-col md:flex-row bg-black text-white p-4 sm:p-8">
         <div className="flex flex-col md:flex-row items-start">
-          <h1 className="text-red-500 text-8xl pl-20">01</h1>
+          <h1 className="text-red-500 text-5xl sm:text-7xl md:text-8xl pl-4 sm:pl-10 md:pl-20">01</h1>
           <div className="consultation mt-4 md:ml-6 flex-1">
-            <h2 className="text-red-500 text-4xl mt-44">
+            <h2 className="text-red-500 text-3xl sm:text-4xl mt-10 sm:mt-32 md:mt-44">
               Consultation & Discovery
             </h2>
-            <p className="text-white mt-5 w-3/4 ">
+            <p className="text-white mt-5 w-full sm:w-3/4 text-sm sm:text-base">
               We understand that each client has their own unique style and
               preferences, so it is essential to provide an in-depth
               consultation and discovery process. This begins with a thorough
@@ -67,13 +67,13 @@ const navigate = useNavigate();
             </p>
           </div>
         </div>
-        <div className="client mt-8 grid  mr-10   gap-6">
-          <div className="head1 p-4 border-2 border-red-500 rounded-lg ">
+        <div className="client mt-8 grid gap-6 mr-0 sm:mr-10">
+          <div className="head1 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">01</h6>
-            <h1 className="text-white text-2xl mt-2">
+            <h1 className="text-white text-xl sm:text-2xl mt-2">
               Client Discovery & Style Exploration
             </h1>
-            <p className="text-white mt-2">
+            <p className="text-white mt-2 text-sm sm:text-base">
               First we take the time to connect with one another and explore the
               nuances and objectives of your project. As we discover your likes,
               dislikes, and vision for the space, we move on to reviewing
@@ -82,8 +82,8 @@ const navigate = useNavigate();
           </div>
           <div className="head2 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">02</h6>
-            <h1 className="text-white text-2xl mt-2">Samples & Swatches</h1>
-            <p className="text-white mt-2">
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Samples & Swatches</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
               Explore the creative possibilities and continue developing your
               mood-board. Our studio is stocked with a diverse collection of
               samples and swatches that can help you narrow down exactly what
@@ -92,8 +92,8 @@ const navigate = useNavigate();
           </div>
           <div className="head3 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">03</h6>
-            <h1 className="text-white text-2xl mt-2">Space planning</h1>
-            <p className="text-white mt-2">
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Space planning</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
               Once we are provided measurements of the space, the LXRY team can
               start designing your project.
             </p>
@@ -101,15 +101,15 @@ const navigate = useNavigate();
         </div>
       </div>
       <div className="img">
-        <img src={imagepro} alt="" />
+        <img src={imagepro} alt="" className="w-full h-auto"/>
       </div>
 
-      <div className=" flex consult bg-black text-white p-8">
+      <div className="flex flex-col md:flex-row bg-black text-white p-4 sm:p-8">
         <div className="flex flex-col md:flex-row items-start">
-          <h1 className="text-red-500 text-8xl pl-20">02</h1>
+          <h1 className="text-red-500 text-5xl sm:text-7xl md:text-8xl pl-4 sm:pl-10 md:pl-20">02</h1>
           <div className="consultation mt-4 md:ml-6 flex-1">
-            <h2 className="text-red-500 text-4xl mt-44">Design Presentation</h2>
-            <p className="text-white mt-5 w-3/4 ">
+            <h2 className="text-red-500 text-3xl sm:text-4xl mt-10 sm:mt-32 md:mt-44">Design Presentation</h2>
+            <p className="text-white mt-5 w-full sm:w-3/4 text-sm sm:text-base">
               The design phase of our process is the key to ensuring success, as
               we apply all the information gathered from the discovery process
               into the design vision. We ensure all aspects include the needs
@@ -122,13 +122,11 @@ const navigate = useNavigate();
             </p>
           </div>
         </div>
-        <div className="client mt-8 grid  mr-10   gap-6">
-          <div className="head1 p-4 border-2 border-red-500 rounded-lg ">
+        <div className="client mt-8 grid gap-6 mr-0 sm:mr-10">
+          <div className="head1 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">01</h6>
-            <h1 className="text-white text-2xl mt-2">
-              Presentation & Proposal
-            </h1>
-            <p className="text-white mt-2">
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Presentation & Proposal</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
               At this stage, our technical team will use the selected samples to
               develop 3D renderings of the newly designed space. The LXRY design
               consultant will present these concepts for the client to choose
@@ -137,8 +135,8 @@ const navigate = useNavigate();
           </div>
           <div className="head2 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">02</h6>
-            <h1 className="text-white text-2xl mt-2">Final Design Approval</h1>
-            <p className="text-white mt-2">
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Final Design Approval</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
               After obtaining client approval on the design concept and
               finishes– we can confirm your order to begin the production
               process.
@@ -146,105 +144,50 @@ const navigate = useNavigate();
           </div>
         </div>
       </div>
-
       <div className="img1">
-        <img src={image1} alt="" />
+        <img src={image1} alt="" className="w-full h-auto"/>
       </div>
 
-      <div className=" flex consult bg-black text-white p-8">
+      <div className="flex flex-col md:flex-row bg-black text-white p-4 sm:p-8">
         <div className="flex flex-col md:flex-row items-start">
-          <h1 className="text-red-500 text-8xl pl-20">03</h1>
+          <h1 className="text-red-500 text-5xl sm:text-7xl md:text-8xl pl-4 sm:pl-10 md:pl-20">03</h1>
           <div className="consultation mt-4 md:ml-6 flex-1">
-            <h2 className="text-red-500 text-4xl mt-44">
-              EXECUTION & INSTALLATION
-            </h2>
-            <p className="text-white mt-5 w-3/4 ">
-              At LXRY, we understand the importance of precise execution and
-              installation of your custom cabinetry. Every step in the
-              installation process is closely monitored with attention to detail
-              and quality assurance. Our team has been specially trained in all
-              aspects of European cabinetry, ensuring the highest level of
-              craftsmanship and precision during every phase of installation. We
-              use state-of-the-art tools and technologies to ensure that your
-              cabinets are installed as designed to secure longevity and
-              function.
+            <h2 className="text-red-500 text-3xl sm:text-4xl mt-10 sm:mt-32 md:mt-44">Logistics & Installation</h2>
+            <p className="text-white mt-5 w-full sm:w-3/4 text-sm sm:text-base">
+              Once the manufacturing process is complete, our team will begin
+              the process of scheduling delivery and installation of the
+              products. We coordinate all logistics and communication with the
+              client and suppliers, including our experienced team of
+              installers, in order to make the project as seamless as possible.
+              You can rest easy knowing that our team is dedicated to
+              transparency and constant communication with our clients,
+              ensuring a successful project.
             </p>
           </div>
         </div>
-        <div className="client mt-8 grid  mr-10   gap-6">
-          <div className="head1 p-4 border-2 border-red-500 rounded-lg ">
+        <div className="client mt-8 grid gap-6 mr-0 sm:mr-10">
+          <div className="head1 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">01</h6>
-            <h1 className="text-white text-2xl mt-2">
-              Product Ordering & Tracking
-            </h1>
-            <p className="text-white mt-2">
-              The designer will work diligently with our overseas partners to
-              guarantee your order is brought into production in a timely manner
-              and that you remain informed of its progress. From the order date
-              to the scheduled installation, delivery can be expected within
-              four months.
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Execution</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
+              We can take care of all aspects of the installation, and our team
+              is committed to making sure that the job is done to the highest
+              standards. Your satisfaction is our number one priority.
             </p>
           </div>
           <div className="head2 p-4 border-2 border-red-500 rounded-lg">
             <h6 className="text-red-500 text-lg">02</h6>
-            <h1 className="text-white text-2xl mt-2">
-              Item Procurement & Storage
-            </h1>
-            <p className="text-white mt-2">
-              Upon delivery, if your project isn't ready for installation our
-              designer will coordinate with you to house your order in our
-              storage facility while your project site is being prepared for the
-              cabinetry.
-            </p>
-          </div>
-          <div className="head2 p-4 border-2 border-red-500 rounded-lg">
-            <h6 className="text-red-500 text-lg">03</h6>
-            <h1 className="text-white text-2xl mt-2">
-              Project Management & Installation
-            </h1>
-            <p className="text-white mt-2">
-              Our experienced team at LXRY will manage and execute the
-              installation of the cabinetry as crafting European cabinetry is an
-              art that requires highly specialized knowledge and training.
-              Masterful craftsmanship must be applied with precision.
-            </p>
-          </div>
-          <div className="head2 p-4 border-2 border-red-500 rounded-lg">
-            <h6 className="text-red-500 text-lg">04</h6>
-            <h1 className="text-white text-2xl mt-2">
-              The Reveal & Project Wrap Up
-            </h1>
-            <p className="text-white mt-2">
-              After months of patiently anticipating your dream space becoming a
-              reality, it finally comes time for the reveal! The designer
-              proudly presents the completed project to the client for a final
-              review and celebration of the project completion.
+            <h1 className="text-white text-xl sm:text-2xl mt-2">Completion</h1>
+            <p className="text-white mt-2 text-sm sm:text-base">
+              With completion of the installation process, your design vision
+              has now become reality. Whether it is a full remodel or a single
+              piece, our clients can expect nothing less than complete
+              satisfaction.
             </p>
           </div>
         </div>
       </div>
-
-
-      <div className="bg-black text-white p-6 sm:p-8 md:p-10 flex flex-col md:flex-row items-center md:items-start">
-        <div className="flex-1 max-w-screen-lg pl-20">
-          <h6 className="text-lg text-red-500 font-semibold mb-2">
-            See Us in Person
-          </h6>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-            Experience Custom Living
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl mb-6">
-            For many, seeing is believing, but there's nothing quite like
-            feeling. Visit us at our showroom in upper Georgetown to get the
-            full experience.
-          </p>
-          <button onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
-            <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
-            <span className="relative">Book an Appointment</span>
-          </button>
-        </div>
-      </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

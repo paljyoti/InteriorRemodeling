@@ -3,8 +3,12 @@ import Navbar from "../component/Navbar";
 import AboutImage from "../../src/assets/pexels-jvdm-1457842.jpg";
 import Footer from "../component/Footer";
 import Update from "../component/Update";
+import { useNavigate } from "react-router-dom";
 
 function AboutUsPage() {
+
+  const  navigate = useNavigate();
+
   return (
     <div className="bg-black min-h-screen text-white">
       <Navbar />
@@ -64,11 +68,11 @@ function AboutUsPage() {
           professional guidance, inspiration, and superior craftsmanship, we'll
           turn your visions into a reality.
         </p>
-        <button className="bg-red-500 w-full md:w-auto text-white py-2 px-4 rounded hover:bg-white hover:text-red-500 border border-red-500 transition duration-300">
+        <button  onClick={()=>navigate('/viewProcess')}  className="bg-red-500 w-full md:w-auto text-white py-2 px-4 rounded hover:bg-white hover:text-red-500 border border-red-500 transition duration-300">
           View Process
         </button>
       </div>
-      <Update />
+      {/* <Update /> */}
       <Footer />
     </div>
   );

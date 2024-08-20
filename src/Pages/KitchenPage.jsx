@@ -15,16 +15,16 @@ function KitchenPage() {
           <img
             src={imageKitchen}
             alt=""
-            className="w-full h-full object-cover opacity-70"
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-full object-cover opacity-70"
           />
         </div>
-        <div className="head absolute inset-0 flex flex-col items-start justify-center pl-28 text-left">
-          <h2 className="text-red-500 text-3xl">Categories</h2>
-          <h1 className="text-white text-6xl mt-2">Our work with Bath</h1>
+        <div className="head absolute inset-0 flex flex-col items-start justify-center pl-6 sm:pl-16 md:pl-28 text-left">
+          <h2 className="text-red-500 text-2xl sm:text-3xl">Categories</h2>
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl mt-2">Our work with Kitchen</h1>
         </div>
       </div>
 
-      <div className="heading2 bg-black text-white p-8 flex flex-col md:flex-row overflow-hidden">
+      <div className="heading2 bg-black text-white p-6 sm:p-8 md:p-10 flex flex-col md:flex-row overflow-hidden">
         <div className="relative flex-1 bg-black text-white overflow-hidden">
           <div className="video w-full md:w-7/8">
             <video
@@ -32,7 +32,6 @@ function KitchenPage() {
               autoPlay
               muted
               loop
-              // controls
             >
               <source src={backgroundVideo3} type="video/mp4" />
               Your browser does not support the video tag.
@@ -41,10 +40,10 @@ function KitchenPage() {
         </div>
 
         <div className="w-full md:w-1/3 text-center md:text-left md:flex md:flex-col md:justify-center mt-8 md:mt-0 md:pl-8">
-          <h1 className="text-3xl font-bold text-red-600 pl-6 mb-4">
+          <h1 className="text-2xl sm:text-3xl font-bold text-red-600 pl-6 mb-4">
             Project Categories
           </h1>
-          <ul className="space-y-4 text-lg pl-7">
+          <ul className="space-y-4 text-base sm:text-lg pl-7">
             <li>
               <a href="/#/totallook">Total Look</a>
             </li>
@@ -55,8 +54,8 @@ function KitchenPage() {
               <a href="/#/Closets">Closets</a>
             </li>
             <li>
-              <a href="/#/living" >Living</a>
-              </li> 
+              <a href="/#/living">Living</a>
+            </li> 
           </ul>
           <button
             onClick={() => navigate("/contact")}
@@ -67,8 +66,9 @@ function KitchenPage() {
           </button>
         </div>
       </div>
+
       <div className="bg-black text-white p-6 sm:p-8 md:p-10 flex flex-col md:flex-row items-center md:items-start">
-        <div className="flex-1 max-w-screen-lg pl-20">
+        <div className="flex-1 max-w-screen-lg sm:pl-10 md:pl-20">
           <h6 className="text-lg text-red-500 font-semibold mb-2">
             See Us in Person
           </h6>
@@ -76,11 +76,11 @@ function KitchenPage() {
             Experience Custom Living
           </h1>
           <p className="text-base sm:text-lg md:text-xl mb-6">
-            For many, seeing is believing, but there's nothing quite like
-            feeling. Visit us at our showroom in upper Georgetown to get the
-            full experience.
+            For many, seeing is believing, but there's nothing quite like feeling. Visit us at our showroom in upper Georgetown to get the full experience.
           </p>
-          <button  onClick={()=>navigate('/bookaAppointment')} className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
+          <button 
+            onClick={()=>navigate('/bookaAppointment')} 
+            className="relative text-white border border-white w-full sm:w-auto md:w-80 py-2 px-4 rounded-lg mt-4 hover:bg-red-500 transition duration-300 overflow-hidden transform hover:-translate-y-1 hover:scale-105 shadow-lg hover:shadow-2xl">
             <span className="absolute inset-0 border-white border transform scale-x-0 origin-right hover:scale-x-100 transition duration-300"></span>
             <span className="relative">Book an Appointment</span>
           </button>
@@ -91,4 +91,4 @@ function KitchenPage() {
   )
 }
 
-export default KitchenPage
+export default KitchenPage;
